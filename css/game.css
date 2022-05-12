@@ -1,0 +1,63 @@
+/*choices area*/
+.choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border: rgb(14, 163, 14) 1px solid;
+  font-size: 3rem;
+  min-width: 80rem;
+  cursor: pointer;
+}
+
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  color: rgb(14, 163, 14);
+}
+
+.choice-text {
+  padding: 1.8rem;
+  width: 100%;
+}
+
+.choice-text:hover {
+  width: 100%;
+  background: rgb(14, 163, 14);
+  transition: all 0.5s ease;
+}
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: -10px;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  margin-top: 1.8rem;
+  width: 20rem;
+  height: 3rem;
+  border: rgb(14, 163, 14)1px solid;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#progressBarFull {
+  height: 100%;
+  background: rgb(14, 163, 14);
+  width: 0%;
+}
+
+#question {
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+}
